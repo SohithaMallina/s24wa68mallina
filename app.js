@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var mydataRouter =require('./routes/mydata');
 var app = express();
-var computationRouter = require('./computation');
+const computationRouter = require('./computation');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
