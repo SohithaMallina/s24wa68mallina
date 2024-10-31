@@ -18,3 +18,4 @@ const router = express.Router();
         <p>Math.expm1 applied to ${x} is: ${expm1Result}</p>
     `);
 });
+module.exports = router;
