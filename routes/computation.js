@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-
-router.get('/', (req, res) => {
+    router.get('/', function(req, res, next)
+    {
     // Use query parameter 'x' if provided; otherwise, generate a random value
     let x = req.query.x ? parseFloat(req.query.x) : Math.random();
 
